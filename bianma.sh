@@ -175,3 +175,5 @@ iconv -f GB2312 -t UTF-8 ./utils/mkdate.c                     -o ../SmartHomeUtf
 iconv -f GB2312 -t UTF-8 ./utils/testdll.c                    -o ../SmartHomeUtf/utils/testdll.c
 iconv -f GB2312 -t UTF-8 ./utils/xzip.c                       -o ../SmartHomeUtf/utils/xzip.c
 iconv -f GB2312 -t UTF-8 ./version.c                          -o ../SmartHomeUtf/version.c
+cp ./utils/xzip ../SmartHomeUtf/utils/
+cp ./utils/mkdate ../SmartHomeUtf/utils/
